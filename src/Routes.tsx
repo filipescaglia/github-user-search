@@ -1,3 +1,4 @@
+import Search from 'pages/Search';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './core/components/Navbar';
@@ -11,7 +12,7 @@ const Routes = () => (
                 <Home />
             </Route>
             <Route path="/search">
-                <h1>Search</h1>
+                <Search />
             </Route>
         </Switch>
     </BrowserRouter>

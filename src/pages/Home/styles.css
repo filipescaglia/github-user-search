@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 
 .home-container h1 {
+    padding-top: 65px;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: bold;
     font-size: 48px;
